@@ -1,0 +1,35 @@
+/* 
+  많이 쓰는 옵션
+  .[이름] = class 하나의 클래스로 여러개의 태그에서 사용 가능 local variable, global...
+  #[이름] = id 유일한 식별자 #define const 
+  블록 설정 : display : block, inline, inline-block, flex, table...
+  포지션 : position : static, relative, absolute, fixed
+  단위 : px, em, rem;
+  블록 생김새 : margin, border, padding 
+    margin: top right bottom left; top/bottom right/left;
+    margin-top
+  폰트 : size, weight, family
+  background, text-align, vertical-align
+*/
+div {
+    margin: 0;
+    border: 1px solid black;
+    display: inherit;
+}
+.block {
+    display: block;
+    margin: 0px;
+}
+.inline {
+    /*display: inline;*/
+    display: block;
+    float: right;
+}
+.inline:after,.inline:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+.inline-block {
+    display: inline-block;
+}
