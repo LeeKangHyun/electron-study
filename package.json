@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/LeeKangHyun/electron-study/issues"
   },
-  "homepage": "https://github.com/LeeKangHyun/electron-study#readme"
+  "homepage": "https://github.com/LeeKangHyun/electron-study#readme",
+  "dependencies": {
+    "connect": "^3.5.0"
+  }
 }
