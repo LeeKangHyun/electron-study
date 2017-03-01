@@ -27,7 +27,7 @@ http.createServer(function (req, res) {
         res.writeHead(200, {'Content-Type': contentType});
         res.end(content, 'utf-8');
       }
-    })
+    });
   } catch (err) {
     console.log(err);
   }

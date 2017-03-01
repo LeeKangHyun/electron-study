@@ -4,3 +4,5 @@ server.log
 node_modules
 .eslint*
 .vscode
+.editorconfig
+.idea/
